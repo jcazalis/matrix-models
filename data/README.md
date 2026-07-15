@@ -136,7 +136,7 @@ The `raw/` directory contains reference data used for validation and bootstrappi
 
 ### `baseline.txt`
 
-Ground-state energy of the one-matrix model in the mean-field (large-$N$) regime, sampled at discrete coupling values. In this setting, there is an analytic formula, derived in:
+Ground-state energy of the one-matrix model in the mean-field (large-$`N`$) regime, sampled at discrete coupling values. In this setting, there is an analytic formula, derived in:
 
 > Brézin, E., Itzykson, C., Parisi, G. et al. *Planar diagrams.* Commun. Math. Phys. **59**, 35–51 (1978). <https://doi.org/10.1007/BF01614153>
 
