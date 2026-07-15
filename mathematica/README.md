@@ -29,7 +29,7 @@ mathematica/
 
 - **`LadderAlgebra.wl`** — Implements a non-commutative algebraic calculus for ladder operators $a_{ij}$, $a^\dagger_{ij}$ indexed by two matrix indices. Provides Fock space machinery (ket/bra states, vacuum, operator actions) and physical operators (number, quadrature, matrix $X$, $P$, $A$, $A^\dagger$).
 
-- **`MatrixModels.wl`** — Tools for U(N) matrix models. Decomposes trace operators (for instance $\operatorname{Tr}(X^K)$ or $\operatorname{Tr}(XPX)\operatorname{Tr}(P)$) into anti-normal ordered generalised traces, computes tensor contractions and overlap integrals, and implements the full woven contraction pipeline. Depends on `LadderAlgebra` and `OperatorTesting`.
+- **`MatrixModels.wl`** — Tools for U(N) matrix models. Decomposes trace operators (for instance $\mathrm{tr}(X^K)$ or $`\mathrm{tr}(XPX) \mathrm{tr}(P)`$) into anti-normal ordered generalised traces, computes tensor contractions and overlap integrals, and implements the full woven contraction pipeline. Depends on `LadderAlgebra` and `OperatorTesting`.
 
 - **`OperatorTesting.wl`** — Automated testing utilities for verifying operator identities. Supports both explicit index notation and implicit Einstein summation notation, using `LadderAlgebra` for simplification.
 
