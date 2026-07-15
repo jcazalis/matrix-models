@@ -1,0 +1,45 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.coverage
+*.coverage
+
+# Virtual environments
+python/.venv
+
+# Data files
+data/processed/
+
+# Exploration files
+mathematica/exploration/
+mathematica/notes/
+python/exploration/
+python/notes/
+notes/
+
+# Archive files
+mathematica/archives/
+python/sym_contractions/archives/
+python/tests/archives/
+archives/
+.DS_Store
+
+# Github files
+.github
+
+# TODO files
+*TODO.md
+
+# VSCode workspace files
+*.code-workspace
+
+# Ignore .vscode/ if it exists
+.vscode/
+.vscode.backup/
+python/.vscode/
+python/.vscode.backup/
+
