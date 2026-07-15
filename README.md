@@ -14,7 +14,7 @@ This project implements tools for computing the Hamiltonian of $U(N)$ one-matrix
 ## Project Structure
 
 ```
-twobraner/
+matrix-models/
 ├── data/                          # Shared GAP-generated data and pipeline scripts
 │   ├── gap_scripts/               # GAP scripts for symmetric group data
 │   ├── generate_data.sh           # Master 6-step data pipeline
@@ -68,7 +68,7 @@ This project aims to efficiently compute, up to an excitation cutoff $\Lambda$, 
 
 $$ H  = \frac{1}{2} \mathrm{tr}( P^2 + m^2 X^2) + \sum_{i = 3}^{K} g(i;N, m) \mathrm{tr}_{\sigma_i}(B_{i,1}\otimes \cdots \otimes B_{i,\ell_i}) \, , $$
 
-where $g(i;N,m)$ are coupling constants that may depend on $N$ and $m$ and where $B_{i,j}$ are either $X$ or $P$. The $\mathrm{tr}_{\sigma_i}$ are generalized traces defined by permutations $\sigma_i \in S_{\ell_i}$ that specify the contraction pattern of the indices of the $B_{i,j}$'s.
+where $g(i;N,m)$ are coupling constants that may depend on $N$ and $m$ and where $B_{i,j}$ are either $X$ or $P$. The $`\mathrm{tr}_{\sigma_i}`$ are generalized traces defined by permutations $`\sigma_i \in S_{\ell_i}`$ that specify the contraction pattern of the indices of the $B_{i,j}$'s.
 
 A simple non-trivial example is the quartic model in the mean-field regime, which corresponds to $K=1$, $\ell_1=4$, $B_{i,j}=X$, and $\sigma = (1\,2\,3\,4)$ (in cycle notation):
 $$H = \frac{1}{2} \mathrm{tr}( P^2 + m^2 X^2) + \frac{g^2}{2N} \mathrm{tr}(X^4) \, .$$
