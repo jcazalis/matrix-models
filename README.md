@@ -1,6 +1,6 @@
 # Matrix Models in the singlet state basis
 
-[ADD ARXIV LINK]
+[arXiv:2607.13725](https://arxiv.org/abs/2607.13725)
 
 ## Project Overview
 
@@ -133,4 +133,5 @@ Code and documentation copyright 2011-2026 [Jean Cazalis](https://github.com/jca
 
 ## Citation
 
-If you use this code in your research, please cite the following paper: [ADD CITATION].
+If you use this code in your research, please cite the following paper: [arXiv:2607.13725](https://arxiv.org/abs/2607.13725)
+
